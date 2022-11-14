@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet" type="text/css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="div1">
+        <form id="alertForm">
+            <input type id="alertInput" type="text" autocomplete="off"/>
+            <input type="submit" value="Submit"/>
+        </form>
+    </div>
+    <br>
+    <br>
+    <div class="div2">
+        <form id="sandwichForm">
+            <h2>Sandwich Builder</h2>
+            <div>
+                <label>1. Turkey</label>
+                <input class="ingredients" id="turkey" type="checkbox"/>
+            </div>
+
+            <div>
+                <label>2. lettuce</label>
+                <input class="ingredients" id="lettuce" type="checkbox"/>
+            </div>
+
+            <div>
+                <label>3. Mustard</label>
+                <input class="ingredients" id="Mustard" type="checkbox"/>
+            </div>
+
+            <div>
+                <label>4. Tomato</label>
+                <input class="ingredients" id="Tomato" type="checkbox"/>
+            </div>
+
+            <div>
+                <label>5.Onions</label>
+                <input class="ingredients" id="onions" type="checkbox"/>
+            </div>
+
+            <div>
+                <label>6. Cheese</label>
+                <input class="ingredients" id="cheese" type="checkbox"/>
+            </div>
+
+            <div>
+                <label>7. Ham</label>
+                <input class="ingredients" id="ham" type="checkbox"/>
+            </div>
+
+            <div>
+                <label>8. Pickles</label>
+                <input class="ingredients" id="pickles" type="checkbox"/>
+            </div>
+
+            <div>
+                <label>9. Peppers</label>
+                <input class="ingredients" id="peppers" type="checkbox"/>
+            </div>
+
+            <div>
+                <label>10. Jalapenos</label>
+                <input class="ingredients" id="jalapenos" type="checkbox"/>
+            </div>
+
+            <!-- add 10 in total-->
+
+            <input type="submit">
+        </form>
+    </div>
+
+<br>
+<br>
+    
+
+<div class="div3">
+        <form id="hairAppointment">
+            <h2>Haircut Appointment Scheduler</h2>
+            <div>
+                <label>Enter your desired haircut appointment date:</label>
+                <input type="date" id="date"/>
+                <!--<p><button>Submit</button></p>-->
+            </div>
+    <br>
+            <div>
+                <label for="hairStylist">Choose a hair stylist:</label>
+                <select name="hairStylist" id="hairStylist">
+                    <option value="Marcia">Marcia</option>
+                    <option value="Cindy">Cindy</option>
+                    <option value="Jan">Jan</option>
+                    <option value="Bobby">Bobby</option>
+                    <option value="Greg">Greg</option>
+                    <option value="Peter">Peter</option>
+                    <option value="Alice">Alice</option>
+                </select>
+                <br><br>
+                <!-- <input type="submit" value="Submit">-->
+            </div>
+            
+            <div>
+                    <h4>Select Hair Length</h4>
+                    <div>
+                        <label>Long</label>
+                        <input id="long" type="radio" name="hairLength" checked>
+                    </div>
+        
+                    <div>
+                        <label>Short</label>
+                        <input id="short" type="radio" name="hairLength">
+                    </div>
+                </div>
+                <input type="submit">
+            </div>
+            <!-- add 10 in total-->
+    <br>
+
+        <br>
+        <br>   
+        </form>
+    </div>    
+
+    
+    
+    <div class="div4">
+     <form id="createAccount">
+        <h2>Create New Account</h2>
+        <div>
+            <label for="">Enter desired username:</label>
+            <input id="username" type="text" autocomplete="off" placeholder="Enter your desired username">
+        </div>
+
+        <div>
+            <label for="">Enter email:</label>
+            <input id="email" type="text" autocomplete="off" placeholder="Enter email">
+        </div>
+
+        <div>
+            <label for="">Enter Password</label>
+            <input id="password" type="password" autocomplete="off" placeholder="password">
+        </div>
+
+        <div>
+            <label for="">Confirm Password:</label>
+            <input id="password" type="password" autocomplete="off" placeholder="confirm password">
+        </div>
+
+        <br>
+        <input type="submit">
+
+     </form>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

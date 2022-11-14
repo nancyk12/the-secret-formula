@@ -1,0 +1,57 @@
+body {
+    background-color: #75FF33;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, 'sans-serif';
+    font-weight: 200;
+    color: black;
+    display: flex;
+}
+
+.div1 {
+    border-radius: 10px;
+    padding: 5px;
+    border-style: dotted;
+    align-content: center;
+    display: flex;
+    animation: example1 2s linear;
+
+}
+
+.div2 {
+    border-radius: 10px;
+    border-style: dotted;
+    display: flex;
+    padding: 5px;
+    animation: example1 2s linear;
+}
+
+.div3 {
+    border-radius: 10px;
+    border-style: dotted;
+    display: flex;
+    padding: 5px;
+    animation: example1 2s linear;
+}
+
+.div4 {
+    border-radius: 10px;
+    border-style: dotted;
+    display: flex;
+    padding: 5px;
+    animation: example1 2s linear;
+
+}
+
+@keyframes example1 { 
+    0% {
+        transform: translateX(200%);    
+    }
+    100% {
+        transform: translateX(0%)
+    }
+}
+
+
+
+#alertFormborder-style{
+    border-color:
+}
